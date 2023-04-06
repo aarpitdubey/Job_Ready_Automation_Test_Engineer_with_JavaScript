@@ -121,3 +121,25 @@ console.log(`math_score type: ${typeof(math_score)}`);
 output :
 
 ![](./images/5_number_datatype.png)
+
+- For String data type 
+
+file name: datatype.js
+
+```javascript
+/*
+    2. STRING
+*/
+
+first_name = 'Arpit';
+last_name  = 'Dubey';
+
+console.log(`\n My name is ${first_name} ${last_name}.\ \n
+'first_name' datatype: ${typeof(first_name)}\ \n
+'last_name' datatype: ${typeof(last_name)}`);
+
+```
+
+output :
+
+![](./images/6_string_type.png)
