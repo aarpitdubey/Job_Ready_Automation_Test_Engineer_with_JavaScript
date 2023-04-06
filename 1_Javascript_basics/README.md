@@ -15,3 +15,23 @@ console.log("\n'Hello world; I'm Arpit Dubey \
 output :
 
 ![output helloworld.js](./images/1_helloworld.js)
+
+- Now, in 2nd script I'm checking does change in value for same variable affect (or) does any impact on the output (or) not?
+It will throw an exception (or) error (or) not?
+
+```javascript
+// let var const
+let num = 10
+console.log(`\nnum = ${num}`);
+
+// try to assign different value to sam variable 'num' 
+// let's see what it prints
+
+num = 20
+console.log(`\nnum = ${num}`);
+
+```
+
+output :
+
+![](./images/2_variables.js)
