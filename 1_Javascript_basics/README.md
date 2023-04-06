@@ -143,3 +143,25 @@ console.log(`\n My name is ${first_name} ${last_name}.\ \n
 output :
 
 ![](./images/6_string_type.png)
+
+- Boolean values in Java script :
+
+```javascript
+
+/*
+        3. BOOLEAN : TRUE (or) FALSE
+*/
+
+let is_Registered = true;
+let is_active = false;
+
+console.log(`\nStudent is Registered to the course: ${is_Registered}\
+ \nis_Registered has a data type : ${typeof(is_Registered)}`);
+
+console.log(`\nStudent is active? : ${is_active}\
+ \nis_active has a data type : ${typeof(is_active)}`);
+
+```
+output :
+
+![](./images/7_boolean_datatype.png)

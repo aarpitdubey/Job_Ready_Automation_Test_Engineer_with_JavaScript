@@ -1,4 +1,12 @@
-// /*
+/*
+//      1. NUMBER
+        2. STRING
+        3. BOOLEAN
+        4. OBJECT
+// */
+
+
+/*
 //      1. NUMBER
 // */
 
@@ -11,14 +19,27 @@
 // console.log(`math_score: ${math_score}`);
 // console.log(`math_score type: ${typeof(math_score)}`);
 
+// /*
+//     2. STRING
+// */
+
+// first_name = 'Arpit';
+// last_name  = 'Dubey';
+
+// console.log(`\n My name is ${first_name} ${last_name}.\ \n
+// 'first_name' datatype: ${typeof(first_name)}\ \n
+// 'last_name' datatype: ${typeof(last_name)}`);
+
+
 /*
-    2. STRING
+        3. BOOLEAN : TRUE (or) FALSE
 */
 
-first_name = 'Arpit';
-last_name  = 'Dubey';
+let is_Registered = true;
+let is_active = false;
 
-console.log(`\n My name is ${first_name} ${last_name}.\ \n
-'first_name' datatype: ${typeof(first_name)}\ \n
-'last_name' datatype: ${typeof(last_name)}`);
+console.log(`\nStudent is Registered to the course: ${is_Registered}\
+ \nis_Registered has a data type : ${typeof(is_Registered)}`);
 
+console.log(`\nStudent is active? : ${is_active}\
+ \nis_active has a data type : ${typeof(is_active)}`);
