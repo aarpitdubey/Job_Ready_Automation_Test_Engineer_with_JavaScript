@@ -65,3 +65,32 @@ console.log(`\nmarks = ${marks} out of 100`);
 output :
 
 ![](./images/3_variables_const.js)
+
+- Java script is a CASE SENSITIVE scripting language. let's check it through variable names
+
+- We can use '_' (underscore) and '$' (dollar sign) as special charcters in naming of a variable.
+
+file name : variables.js
+```javascript
+// Naming convention for javascript variables
+let arpit   = 100
+let Arpit   = 90
+let ArpiT   = 80
+let ARPIT   = 70
+let _ARPIT  = 100
+let $ARPIT  = 100
+let phoneNumber = 98987898
+let phonenumber = 98987897
+
+console.log(arpit);
+console.log(Arpit);
+console.log(ArpiT);
+console.log(ARPIT);
+console.log(_ARPIT);
+console.log($ARPIT);
+console.log(phoneNumber);
+console.log(phonenumber);
+```
+
+output :
+![](./images/4_naming_convention.png)
