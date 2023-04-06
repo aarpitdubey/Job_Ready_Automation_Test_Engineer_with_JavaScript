@@ -177,6 +177,7 @@ let student =
 {
     // Object in Javascript
     // student is now an object
+    
 
 }
 
@@ -187,3 +188,25 @@ console.log(`\nstudent datatype : ${typeof(student)}`);
 output :
 
 ![](./images/8_object_datatype.png)
+
+- Let's access the object that we created and implement it with some values :
+
+```javascript
+
+let student = 
+{
+    studentfname : 'Arpit',
+    studentlname : 'Dubey ji',
+    student_fullname: 'Arpit Dubey ji',
+    course_id : 007,
+    course_name: 'Job Ready Automation Test engineer with javascript',
+
+}
+
+console.log(`\n Student name: ${student.student_fullname}\ 
+\n is enrolled in the course: ${student.course_name} having a course id: ${student.course_id}`);
+```
+
+output :
+
+![](./images/9_filled_object_dtype.png)
