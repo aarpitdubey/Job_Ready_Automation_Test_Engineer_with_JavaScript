@@ -165,3 +165,25 @@ console.log(`\nStudent is active? : ${is_active}\
 output :
 
 ![](./images/7_boolean_datatype.png)
+
+- Javascript have object data type too:
+
+```javascript
+/* 
+    4. OBJECT
+*/
+
+let student = 
+{
+    // Object in Javascript
+    // student is now an object
+
+}
+
+console.log(`\nstudent datatype : ${typeof(student)}`);
+
+```
+
+output :
+
+![](./images/8_object_datatype.png)
