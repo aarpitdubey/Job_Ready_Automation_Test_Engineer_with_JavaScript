@@ -97,7 +97,8 @@ output :
 
 - Let's see the data types in javascript
 - for values like 90, 99.9 in other programming languages data type are different like Int and Float respectively
-- here in javascript the datatype is same 'number' type for decimal (or) without decimal values
+- here in javascript the datatype is same 'number' type for decimal (or) without decimal values.
+- we can find datatype in javascript using ```typeof()``` built-in function
 
 file name: datatype.js
 ```javascript
