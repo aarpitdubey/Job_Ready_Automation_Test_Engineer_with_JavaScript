@@ -8,3 +8,11 @@ console.log(`\nnum = ${num}`);
 num = 20
 console.log(`\nnum = ${num}`);
 
+// doing above checking using 'const' instead of 'let'
+
+const marks = 100;
+console.log(`\nmarks = ${marks} out of 100`);
+
+marks = 33;
+console.log(`\nmarks = ${marks} out of 100`);
+
